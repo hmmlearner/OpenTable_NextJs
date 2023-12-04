@@ -1,0 +1,85 @@
+<main className="bg-gray-100 w-screen min-h-screen">
+    <main className="max-w-screen-2xl bg-white m-auto">
+      {/*Nav Bar */}
+      <nav className="bg-white p-2 flex justify-between">
+        <a href="" className="font-bold text-gray-700 text-2xl">
+          OpenTable
+        </a>
+        <div>
+          <button className="rounded border bg-blue-400 text-white p-1 px-4 mr-2">
+            Sign In
+          </button>
+          <button className="border p-1 px-4">Sign Up</button>
+        </div>
+      </nav>
+      {/*Nav Bar */}
+      {/* Header */}
+      <div className="bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
+        <div className="flex justify-center m-auto py-2">
+            <input type='text' className="rounded text-lg p-2 mr-3 w-[450px]" placeholder="State, city and town"/>
+            <button className="rounded text-lg bg-red-500 text-white px-9 py-2 ">Let's go</button>
+        </div>
+      </div>
+      <div className="m-auto w-2/3 py-4 flex justify-between items-start">
+          <div className="w-1/5">
+            <div className="border-b pb-4">
+              <h1 className="mb-2">Region</h1>
+              <p className="font-light text-reg">Sydney</p>
+              <p className="font-light text-reg">Melbourne</p>
+              <p className="font-light text-reg">Brisbane</p>
+              <p className="font-light text-reg">Adeladie</p>
+              <p className="font-light text-reg">Perth</p>
+              <p className="font-light text-reg">Darwin</p>
+            </div>
+            <div className="border-b pb-4 mt-3">
+              <p className="font-light text-reg">Australian</p>
+              <p className="font-light text-reg">Italian</p>
+              <p className="font-light text-reg">Chinese</p>
+              <p className="font-light text-reg">Thai</p>
+              <p className="font-light text-reg">Indian</p>
+              <p className="font-light text-reg">Mexcian</p>
+            </div>
+            <div className="mt-3 pb-4">
+              <h1 className="mb-2">Price</h1>
+              <div className="flex">
+                <div className="border rounded-l p-2 w-full font-light text-reg">
+                  $
+                </div>
+                <div className="border-t border-b border-r p-2 w-full font-light text-reg">
+                  $$
+                </div>
+                <div className="border-t border-b border-r rounded-r p-2 w-full font-light text-reg">
+                  $$$
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-5/6">
+            {/*Resturant Card */}
+            <div className="border-b flex pb-5">
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/1/25859705.webp" alt="" className="w-56 rounded"></img>
+              <div className="pl-5">
+                <h2 className="text-3xl">Grounds of City</h2>
+                <div className="flex items-start">
+                  <div className="flex mb-2">****</div>
+                  <p className="text-sm ml-2">Awesome</p>
+                </div>
+                <div className="mb-9">
+                  <div className="flex text-reg font-light">
+                    <p className="mr-4">$$$</p>
+                    <p className="mr-4">Modern Australian</p>
+                    <p className="mr-4">Sydney CBD</p>
+                  </div>
+                </div>
+              </div>
+              <div className="text-red-600">
+                <a href="">View more information</a>
+              </div>
+            </div>
+            {/*Resturant Card */}
+          </div>
+      </div>
+      {/* Header */}
+    </main>
+  </main>

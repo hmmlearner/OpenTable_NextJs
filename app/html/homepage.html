@@ -1,0 +1,51 @@
+<main className="bg-gray-100 w-screen min-h-screen">
+    <main className="max-w-screen-2xl bg-white m-auto">
+    {/*Nav Bar */}
+      <nav className="bg-white p-2 flex justify-between">
+          <a href="" className="font-bold text-gray-700 text-2xl">OpenTable</a>
+          <div>
+            <button className="rounded border bg-blue-400 text-white p-1 px-4 mr-2">Sign In</button>
+            <button className="border p-1 px-4">Sign Up</button>
+          </div>
+      </nav>
+    {/*Nav Bar */}
+      <main>
+        {/*Header*/}
+        <div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
+          <div className="text-center mt-10">
+            <h1 className="text-white font-bold text-5xl">Find table for any occasion</h1>
+            {/*Search*/}
+            <div className="flex justify-center m-auto py-2">
+              <input type='text' className="rounded text-lg p-2 mr-3 w-[450px]" placeholder="State, city and town"/>
+              <button className="rounded text-lg bg-red-500 text-white px-9 py-2 ">Let's go</button>
+            </div>
+            {/*Search*/}
+          </div>
+        </div>
+        {/*Header*/}
+        {/*Cards*/}
+        <div className="flex-wrap bg-white mt-10 py-3 px-36">
+          {/*Card*/}
+          <div className="w-64 h-72 rounded overflow-hidden cursor-pointer border">
+              <img src="https://resizer.otstatic.com/v2/photos/wide-huge/3/52516586.webp" alt="" className="w-full h-36"/>
+              <div className="p-1">
+                <h3 className="text-2xl font-bold mb-2">Tajima Yakiniku</h3>
+                <div className="flex items-start">
+                  <div className="flex mb-2">*****</div>
+                  <p className="ml-2">44 reviews</p>
+                </div>
+                <div className="text-reg flex capitalize font-light">
+                  <p className="mr-3">Japanese</p>
+                  <p className="mr-3">$$$$</p>
+                  <p>Sydney</p>
+                </div>
+                  <p className="text-sm font-bold mt-1">Booked 3 times</p>
+             </div>
+          </div>
+          {/*Card*/}
+        </div>
+        {/*Cards*/}
+
+      </main>
+    </main>
+  </main>

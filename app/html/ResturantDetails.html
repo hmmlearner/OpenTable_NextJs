@@ -1,0 +1,146 @@
+<main className="bg-gray-100 w-screen min-h-screen">
+    <main className="max-w-screen-2xl bg-white m-auto">
+      {/*Nav Bar */}
+      <nav className="bg-white p-2 flex justify-between">
+        <a href="" className="font-bold text-gray-700 text-2xl">
+          OpenTable
+        </a>
+        <div>
+          <button className="rounded border bg-blue-400 text-white p-1 px-4 mr-2">
+            Sign In
+          </button>
+          <button className="border p-1 px-4">Sign Up</button>
+        </div>
+      </nav>
+      {/*Nav Bar */}
+      {/*Header */}
+      <div className="h-96 overflow-hidden">
+        <div className="bg-center bg-gradient-to-r from-[#0f1f47] to-[#5f6984] h-full flex justify-center items-start">
+          <h1 className="text-7xl text-white capitalize text-shadow text-center">
+            Tajima Yakiniku
+          </h1>
+        </div>
+      </div>
+      {/*Header */}
+      {/*Description*/}
+      <div className="-mt-9 w-2/3 flex justify-between items-start m-auto">
+        <div className="rounded bg-white w-[70%] shadow p-3">
+          {/* Resturant Nav bar */}
+          <nav>
+            <a href="" className="mr-7">
+              Overview
+            </a>
+            <a href="" className="mr-7">
+              Menu
+            </a>
+          </nav>
+          {/* Resturant Nav bar */}
+          <div className="mt-4 pb-6 pl-2 border-t border-b">
+            <h1 className="text-6xl font-bold">Tajima Yakiniku</h1>
+          </div>
+
+          <div className="flex items-end">
+            <div className="mt-2 flex items-center">
+              <p>****</p>
+              <p className="text-reg ml-3">4.6</p>
+            </div>
+            <div>
+              <p className="text-reg ml-3">28 Reviews</p>
+            </div>
+          </div>
+          <div className="font-light text-lg mt-4">
+            <p>
+              "FRESH & AUTHENTIC JAPANESE BBQ IN SYDNEY! Experience a taste of
+              Japan with our authentic Japanese Yakiniku. Serving up some of
+              the BEST & HIGHEST QUALITY WAGYU - MARBLE SCORE 9+ WAGYU -
+              SELECTED PREMIUM SEAFOOD - SAKE, JAPANESE WHISKY, TAP BEER &
+              COCTAILS +MORE!{" "}
+            </p>
+          </div>
+          {/*images*/}
+          <div>
+            <h1 className="text-3xl font-bold mt-10 mb-7 border-b pb-5">7</h1>
+            <div className="flex flex-wrap">
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/3/52516586.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52621502.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52621506.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52621505.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52621507.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52621503.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+              <img src="https://resizer.otstatic.com/v2/photos/xlarge/2/52530150.webp" alt="" className="w-56 h-44 mr-1 mb-1"></img>
+            </div>
+          </div>
+          {/*images*/}
+          {/*Reviews */}
+          <div>
+            <h1 className="text-3xl font-bold mt-10 mb-5 pb-5 border-b">What 28 people are saying</h1>
+            <div>
+              {/*Review Card */}
+               <div className="border-b pb-7 mb-7">
+                  <div className="flex">
+                    <div className="w-1/6 flex flex-col items-center">
+                      <div className="rounded-full bg-blue-400 flex items-center justify-center w-16 h-16">
+                        <h2 className="text-2xl text-white">MJ</h2>
+                      </div>
+                      <p>Micheal Jackson</p>
+                    </div>
+                    <div className="ml-10 w-5/6">
+                      <div className="flex items-center">
+                        <div className="flex mr-5">
+                          *****
+                        </div>
+                      </div>
+                      <div className="mt-5">
+                        <p className="text-lg text-left font-light">
+                        Everything was good except for the vegetable because it didn’t have the vegetables shown in the picture so it was misleading as we were looking forward to have enoki mushrooms but got cabbage instead
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+              {/*Review Card */}
+            </div>
+          </div>
+          {/*Reviews */}
+        </div>
+        {/*Reservation Card*/}
+      <div className="relative w-[27%] text-reg">
+        <div className="fixed w-[15%] bg-white shadow p-3">
+            <div className="text-center border-b pb-2 font-bold">
+              <h4 className="font-bold mr-7">Make a Reservation</h4>
+            </div>
+            <div className="my-3 flex flex-col">
+              <label htmlFor="">No. of diners</label> 
+              <select id="" name="" className="border-b font-light py-3">
+                <option>2 people</option>
+                <option>3 people</option>
+                <option>4 people</option>
+                <option>5 people</option>
+              </select>
+            </div>
+            <div className="my-3 flex justify-between">
+              <div className="flex flex-col">
+                <label htmlFor="">Date</label>
+                <select id="" name="" className="border-b font-light py-3 w-28">
+                  <option>12 Nov 2023</option>
+                </select>
+              </div>
+              <div className="flex flex-col w-[48%]">
+                <label htmlFor="">Time</label>
+                <select id="" name="" className="border-b font-light py-3">
+                  <option>7:00pm</option>
+                </select>
+              </div>
+            </div>
+            <div className="mt-5">
+              <button className="rounded bg-red-600 w-full py-2 text-white">Find a time</button>
+            </div>
+
+        </div>
+      </div>
+      {/*Reservation Card*/}
+      </div>
+      {/*Description*/}
+      
+    </main>
+  </main>
